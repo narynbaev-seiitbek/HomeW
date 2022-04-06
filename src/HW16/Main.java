@@ -17,7 +17,7 @@ public class Main {
                 {new Mother(), new Father(), new Son(), new Daughter()});
         System.out.println(apartment);
         int counter=0;
-        for (int i = 0; i <= 4; i++) {
+        for (int i = 0; i <= 3; i++) {
             counter++;
             CreatePerson person = apartment.create();
             System.out.println(person);
